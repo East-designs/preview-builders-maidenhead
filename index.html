@@ -1,210 +1,301 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Builders Maidenhead — Builder in Maidenhead</title>
-<meta name="description" content="Builders Maidenhead, builder serving Maidenhead, Berkshire (SL6) & surrounding towns. Home extensions, conversions and general building across Maidenhead and Berkshire — free, no-obligation quotes.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Builders Maidenhead | Local Building Contractors in Maidenhead, Berkshire (SL6)</title>
+<meta name="description" content="Builders Maidenhead — reliable local building contractors in Maidenhead, Berkshire. Extensions, loft conversions, renovations, kitchen & bathroom fitting and new builds. Call 01494 870870 for a free quote." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 <style>
-:root{--bg:#111827;--ink:#e5e7eb;--ac:#f59e0b;--soft:#1e293b;--mut:#94a3b8;--card:#1e293b;--foot:#0b101c}
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--ink);font-family:Inter,sans-serif;line-height:1.6}
-.wrap{max-width:1100px;margin:0 auto;padding:0 22px}
-h1,h2,h3,h4{font-family:Poppins,sans-serif}
-.kicker{text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:700;color:var(--ac)}
-.nav{position:sticky;top:0;z-index:50;background:rgba(15,22,38,.92);backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,.08)}
-.nav-in{display:flex;align-items:center;justify-content:space-between;height:64px}
-.brand{font-family:Poppins,sans-serif;font-weight:800;font-size:19px;color:#fff;text-decoration:none}
-.nav-links a{margin-left:18px;color:#cbd5e1;text-decoration:none;font-weight:500;font-size:15px}
-.nav-phone{background:var(--ac);color:#0b101c;padding:8px 14px;border-radius:8px;font-weight:800}
-.hero{padding:80px 0 60px;background:radial-gradient(1200px 500px at 80% -10%,rgba(201,168,76,.18),transparent)}
-.badge{display:inline-block;background:rgba(201,168,76,.16);color:var(--ac);border:1px solid rgba(201,168,76,.4);padding:6px 14px;border-radius:999px;font-size:13px;font-weight:700;letter-spacing:.04em}
-.hero h1{font-size:clamp(32px,5.5vw,56px);line-height:1.06;margin:16px 0;max-width:16ch}
-.hero .lead{color:var(--mut);font-size:18px;max-width:58ch;margin-bottom:26px}
-.btn{display:inline-block;background:var(--ac);color:#0b101c;text-decoration:none;font-weight:800;font-family:Poppins,sans-serif;padding:14px 26px;border-radius:10px;font-size:16px}
-.btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.3);margin-left:10px}
-.btn:hover{transform:translateY(-2px)}
-.stats{display:flex;gap:30px;flex-wrap:wrap;margin-top:34px}
-.stat .snum{font-family:Poppins,sans-serif;font-weight:800;font-size:30px;color:var(--ac)}
-.stat .slab{color:var(--mut);font-size:14px}
-.sec{padding:62px 0}
-.sec h2{font-size:clamp(26px,4vw,38px);margin:6px 0 26px}
-.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.card{background:var(--card);border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:22px;position:relative;overflow:hidden}
-.ctag{position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--ac),transparent)}
-.card h3{font-size:18px;margin-bottom:8px}
-.card p{color:var(--mut);font-size:14px}
-.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.wcard{background:var(--card);border-radius:12px;padding:20px;border:1px solid rgba(255,255,255,.07)}
-.wcard h4{color:var(--ac);font-size:16px;margin-bottom:6px}
-.wcard p{color:var(--mut);font-size:14px}
-.tst-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.tcard{background:var(--card);border-radius:14px;padding:24px;border:1px solid rgba(255,255,255,.07)}
-.tcard p{font-size:16px}
-.tcard cite{display:block;margin-top:12px;color:var(--ac);font-style:normal;font-weight:700;font-size:14px}
-.contact-in{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
-.contact-info .lead{margin:14px 0 18px;color:var(--mut);font-size:16px}
-.contact-list{list-style:none}
-.contact-list li{padding:8px 0;border-top:1px solid rgba(255,255,255,.1);font-size:15px}
-.contact-list a{color:var(--ac);text-decoration:none;font-weight:700}
-.cform{display:flex;flex-direction:column;gap:12px}
-.cform input,.cform textarea{padding:13px 14px;border:1px solid rgba(255,255,255,.16);border-radius:10px;background:rgba(255,255,255,.04);color:#fff;font-family:Inter,sans-serif;font-size:15px}
-.cform .btn{border:none;cursor:pointer}
-.form-note{font-size:13px;color:var(--mut)}
-.foot{background:var(--foot);color:#cbd5e1;padding:42px 0 24px;margin-top:50px}
-.foot-in{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
-.foot-brand{font-family:Poppins,sans-serif;font-weight:800;font-size:20px;color:#fff}
-.foot-sub{font-size:14px;margin-top:6px}
-.foot-contact{display:flex;flex-direction:column;gap:6px;font-size:14px}
-.foot-contact a{color:#fff;text-decoration:none}
-.foot-base{border-top:1px solid rgba(255,255,255,.12);margin-top:24px;padding-top:16px;font-size:13px;color:#7c8aa0}
-.fab{display:none}
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
-.reveal.in{opacity:1;transform:none}
-@media(max-width:820px){.svc-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:760px){
- .hero,.sec{padding:50px 0}
- .svc-grid,.why-grid,.tst-grid,.contact-in{grid-template-columns:1fr}
- .nav-links a{margin-left:10px;font-size:13px}
- .btn-ghost{margin-left:0;margin-top:10px;display:block;text-align:center}
- .fab{display:flex;position:fixed;bottom:16px;left:16px;right:16px;z-index:60;background:var(--ac);color:#0b101c;text-decoration:none;font-family:Poppins,sans-serif;font-weight:800;justify-content:center;align-items:center;gap:8px;padding:15px;border-radius:14px}
- .fab-ico{font-size:18px}
-}
-</style></head>
-<body id="top">
+  :root {
+    --bg: #263238;
+    --bg-2: #2e3b42;
+    --accent: #ffa000;
+    --accent-dark: #e69100;
+    --text: #eceff1;
+    --muted: #b0bec5;
+    --card: #2e3b42;
+    --card-border: #37474f;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-family: 'Poppins', system-ui, sans-serif; line-height: 1.15; }
+  a { color: inherit; text-decoration: none; }
+  .wrap { width: min(1100px, 92vw); margin: 0 auto; }
 
-<header class="nav">
-  <div class="wrap nav-in">
-    <a class="brand" href="#top">Builders Maidenhead</a>
-    <nav class="nav-links">
-      <a href="#services">Services</a>
-      <a href="#why">Why us</a>
-      <a href="#contact">Contact</a>
-      
-    </nav>
-  </div>
-</header>
-<section class="hero">
-  <div class="wrap reveal">
-    <span class="badge">★ Building Contractors, SL6</span>
-    <h1>Builders Maidenhead</h1>
-    <p class="lead">Home extensions, conversions and general building across Maidenhead and Berkshire — free, no-obligation quotes.</p>
-    <a class="btn" href="#contact">Get a free quote</a>
-    <div class="stats"><div class="stat reveal"><div class="snum">SL6</div><div class="slab">Maidenhead base</div></div><div class="stat reveal"><div class="snum">Free</div><div class="slab">No-obligation quotes</div></div><div class="stat reveal"><div class="snum">Est.</div><div class="slab">Building Berkshire</div></div></div>
-  </div>
-</section>
-<section id="services" class="sec">
-  <div class="wrap">
-    <span class="kicker">Our services</span>
-    <h2>What we cover</h2>
-    <div class="svc-grid">
-      <div class="card reveal">
-        <div class="ctag"></div>
-        <h3>Home Extensions</h3><p>Single and multi-storey extensions planned and built.</p>
-      </div>
-      <div class="card reveal">
-        <div class="ctag"></div>
-        <h3>Loft & Cellar Conversions</h3><p>Turn unused space into living space.</p>
-      </div>
-      <div class="card reveal">
-        <div class="ctag"></div>
-        <h3>Domestic & Commercial Building</h3><p>New builds, refurbs and fit-outs.</p>
-      </div>
-      <div class="card reveal">
-        <div class="ctag"></div>
-        <h3>Partition Walls</h3><p>Stud and solid partitions, clean and straight.</p>
-      </div>
-      <div class="card reveal">
-        <div class="ctag"></div>
-        <h3>Staircases & Joinery</h3><p>New and replacement stairs and timber work.</p>
-      </div>
-      <div class="card reveal">
-        <div class="ctag"></div>
-        <h3>Cavity Wall Insulation</h3><p>Warmer homes, lower bills.</p>
-      </div>
-      <div class="card reveal">
-        <div class="ctag"></div>
-        <h3>Damp & Mould Control</h3><p>Find and fix the cause, not just the symptom.</p>
-      </div>
-      <div class="card reveal">
-        <div class="ctag"></div>
-        <h3>Groundworks & Foundations</h3><p>The solid base every build depends on.</p>
-      </div>
-      <div class="card reveal">
-        <div class="ctag"></div>
-        <h3>Building Estimates</h3><p>Clear, free quotes before you commit.</p>
-      </div></div>
-  </div>
-</section>
-<section id="why" class="sec" style="padding-top:0">
-  <div class="wrap">
-    <span class="kicker">Why choose us</span>
-    <h2>Built on trust</h2>
-    <div class="why-grid">
-      <div class="wcard reveal"><h4>Free quotes</h4><p>A clear estimate with no pressure.</p></div>
-      <div class="wcard reveal"><h4>Local to Maidenhead</h4><p>Berkshire builders who know the area.</p></div>
-      <div class="wcard reveal"><h4>FMB & CSCS aligned</h4><p>Working to recognised building standards.</p></div></div>
-  </div>
-</section>
-<section class="sec">
-  <div class="wrap">
-    <span class="kicker">From our customers</span>
-    <h2>What they say</h2>
-    <div class="tst-grid" style="margin-top:22px">
-      <div class="tcard reveal"><p>&ldquo;Builders Maidenhead extended our kitchen and handled everything start to finish. Smooth and professional.&rdquo;</p><cite>— Client, Maidenhead</cite></div>
-      <div class="tcard reveal"><p>&ldquo;Fair quote, tidy site and quality groundwork. Would recommend for extensions.&rdquo;</p><cite>— Homeowner, Berkshire</cite></div></div>
-  </div>
-</section>
+  /* Header */
+  header {
+    position: sticky; top: 0; z-index: 40;
+    background: rgba(38,50,56,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--card-border);
+  }
+  .nav { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; }
+  .brand { font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 1.2rem; color: #fff; }
+  .brand span { color: var(--accent); }
+  .nav-links { display: flex; gap: 22px; font-weight: 500; font-size: 0.95rem; }
+  .nav-links a:hover { color: var(--accent); }
+  .nav-cta {
+    background: var(--accent); color: #1b2329; font-weight: 700;
+    padding: 9px 16px; border-radius: 8px; font-size: 0.9rem;
+  }
+  .nav-cta:hover { background: var(--accent-dark); }
 
-<section id="contact" class="contact reveal">
-  <div class="wrap contact-in">
-    <div class="contact-info">
-      <span class="kicker" style="color:#f59e0b">Get in touch</span>
-      <h2>Book Builders Maidenhead</h2>
-      <p class="lead"><p class="lead">Get a free, no-obligation quote for your job in Maidenhead &amp; nearby.</p></p>
-      <ul class="contact-list">
-        <li><strong>Area:</strong> Maidenhead, Berkshire (SL6) & surrounding towns</li>
-        
-        
-      </ul>
+  /* Hero */
+  .hero { padding: 84px 0 72px; text-align: center; background:
+    radial-gradient(1200px 500px at 50% -10%, rgba(255,160,0,0.12), transparent 60%); }
+  .hero h1 { font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 800; color: #fff; }
+  .hero h1 .hl { color: var(--accent); }
+  .hero p { color: var(--muted); font-size: 1.12rem; max-width: 640px; margin: 18px auto 30px; }
+  .btn {
+    display: inline-block; background: var(--accent); color: #1b2329;
+    font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.05rem;
+    padding: 15px 30px; border-radius: 10px; transition: transform .15s ease, background .15s ease;
+  }
+  .btn:hover { background: var(--accent-dark); transform: translateY(-2px); }
+  .btn-ghost { background: transparent; color: var(--text); border: 2px solid var(--card-border); }
+  .btn-ghost:hover { border-color: var(--accent); background: rgba(255,160,0,0.08); }
+  .hero-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .hero-meta { margin-top: 26px; color: var(--muted); font-size: 0.95rem; }
+  .hero-meta strong { color: var(--accent); }
+
+  /* Section */
+  section { padding: 64px 0; }
+  .section-head { text-align: center; margin-bottom: 42px; }
+  .section-head h2 { font-size: clamp(1.6rem, 3.5vw, 2.4rem); color: #fff; }
+  .section-head p { color: var(--muted); margin-top: 10px; }
+
+  /* Services grid */
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+  .card {
+    background: var(--card); border: 1px solid var(--card-border); border-radius: 14px;
+    padding: 26px 22px; transition: transform .18s ease, border-color .18s ease;
+  }
+  .card:hover { transform: translateY(-4px); border-color: var(--accent); }
+  .card .ico { font-size: 2rem; }
+  .card h3 { color: #fff; margin: 12px 0 8px; font-size: 1.18rem; }
+  .card p { color: var(--muted); font-size: 0.95rem; }
+
+  /* Why us */
+  .why { background: var(--bg-2); }
+  .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 22px; }
+  .why-item { display: flex; gap: 14px; align-items: flex-start; }
+  .why-item .tick {
+    flex: 0 0 auto; width: 42px; height: 42px; border-radius: 10px;
+    background: rgba(255,160,0,0.15); color: var(--accent);
+    display: grid; place-items: center; font-size: 1.3rem; font-weight: 800;
+  }
+  .why-item h3 { color: #fff; font-size: 1.08rem; margin-bottom: 4px; }
+  .why-item p { color: var(--muted); font-size: 0.95rem; }
+
+  /* Testimonials */
+  .t-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: 20px; }
+  .t-card { background: var(--card); border: 1px solid var(--card-border); border-radius: 14px; padding: 24px; }
+  .stars { color: var(--accent); letter-spacing: 2px; font-size: 1.1rem; }
+  .t-card p { color: var(--text); margin: 12px 0 16px; font-style: italic; }
+  .t-card .who { color: var(--muted); font-size: 0.9rem; font-weight: 600; }
+
+  /* Contact */
+  .contact { background: var(--bg-2); }
+  .contact-box {
+    max-width: 640px; margin: 0 auto; text-align: center;
+    background: var(--card); border: 1px solid var(--card-border); border-radius: 16px; padding: 40px 30px;
+  }
+  .contact-box h2 { color: #fff; font-size: 1.9rem; }
+  .contact-box .phone-big {
+    display: inline-block; margin: 18px 0; font-family: 'Poppins', sans-serif;
+    font-weight: 800; font-size: clamp(1.6rem, 5vw, 2.4rem); color: var(--accent);
+  }
+  .contact-box .area { color: var(--muted); margin-bottom: 22px; }
+
+  /* Footer */
+  footer { background: #1b252b; padding: 34px 0; border-top: 1px solid var(--card-border); }
+  .foot { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; }
+  .foot .brand { font-size: 1.05rem; }
+  .foot .fphone { color: var(--accent); font-weight: 700; }
+  .foot small { color: var(--muted); }
+
+  /* Mobile call button */
+  .call-now {
+    position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%);
+    z-index: 50; background: var(--accent); color: #1b2329;
+    font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 1.02rem;
+    padding: 14px 26px; border-radius: 50px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    display: none;
+  }
+  .call-now:hover { background: var(--accent-dark); }
+
+  /* Fade-in */
+  .reveal { opacity: 0; transform: translateY(22px); transition: opacity .6s ease, transform .6s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+  @media (max-width: 720px) {
+    .nav-links { display: none; }
+    .call-now { display: inline-block; }
+    .hero { padding: 56px 0 50px; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">Builders<span> Maidenhead</span></div>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="tel:01494870870">Call 01494 870870</a>
     </div>
-    <div class="contact-form">
-    <form class="cform" action="#" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Your name" required>
-      <input type="text" name="phone" placeholder="Phone number" required>
-      <input type="text" name="location" placeholder="Job location / area">
-      <textarea name="message" rows="4" placeholder="What do you need?"></textarea>
-      <button type="submit" class="btn">Request a free quote</button>
-      <p class="form-note">No email on file — tell us your details and we'll be in touch within one working day.</p>
-    </form></div>
-  </div>
-</section>
+  </header>
 
-<footer class="foot" style="background:#0b101c">
-  <div class="wrap foot-in">
-    <div>
-      <div class="foot-brand">Builders Maidenhead</div>
-      <p class="foot-sub">Builder serving Maidenhead &amp; nearby.</p>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Trusted <span class="hl">Builders in Maidenhead</span><br />for Extensions, Renovations & New Builds</h1>
+      <p>Local, reliable building contractors covering Maidenhead and across Berkshire (SL6). Quality workmanship, clear quotes and projects delivered on time.</p>
+      <div class="hero-actions">
+        <a class="btn" href="tel:01494870870">📞 Call for a Free Quote</a>
+        <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+      </div>
+      <div class="hero-meta">Serving <strong>Maidenhead, Berkshire</strong> &amp; surrounding Berkshire towns · <strong>Fully insured</strong> · <strong>No-obligation quotes</strong></div>
     </div>
-    <div class="foot-contact">
-      <span>Free quotes on request</span>
-      
-      <span>Maidenhead, Berkshire (SL6) & surrounding towns</span>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Our Building Services</h2>
+        <p>From a single room to a full build — we handle it all.</p>
+      </div>
+      <div class="grid">
+        <div class="card reveal">
+          <div class="ico">🏠</div>
+          <h3>Extensions</h3>
+          <p>Single and two-storey home extensions designed to add space and value to your Maidenhead property.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico">🛋️</div>
+          <h3>Loft Conversions</h3>
+          <p>Turn unused loft space into a bedroom, office or playroom with a fully finished conversion.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico">🔧</div>
+          <h3>Renovations &amp; Refurbs</h3>
+          <p>Full and partial renovations, from stripping back to a complete room-by-room refurbishment.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico">🍳</div>
+          <h3>Kitchen &amp; Bathroom Fitting</h3>
+          <p>Supply and fit of kitchens and bathrooms, including plumbing, tiling and finishing.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico">🏗️</div>
+          <h3>New Builds</h3>
+          <p>Ground-up new build homes and outbuildings managed from foundations to handover.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico">🧱</div>
+          <h3>General Building Work</h3>
+          <p>Repairs, brickwork, plastering and ongoing maintenance for homeowners and landlords.</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="wrap foot-base">© 2026 Builders Maidenhead. All rights reserved.</div>
-</footer>
+  </section>
 
+  <section id="why" class="why">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Why Choose Builders Maidenhead</h2>
+        <p>Local builders you can rely on, every step of the way.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-item reveal">
+          <div class="tick">✓</div>
+          <div>
+            <h3>Fully Insured</h3>
+            <p>Public liability insurance on every job for your complete peace of mind.</p>
+          </div>
+        </div>
+        <div class="why-item reveal">
+          <div class="tick">✓</div>
+          <div>
+            <h3>Free, Clear Quotes</h3>
+            <p>No-obligation written quotes with itemised costs — no hidden surprises.</p>
+          </div>
+        </div>
+        <div class="why-item reveal">
+          <div class="tick">✓</div>
+          <div>
+            <h3>Local &amp; Reliable</h3>
+            <p>Based in Maidenhead, we know the area and turn up when we say we will.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<script>
-(function(){
-  var io = new IntersectionObserver(function(entries){
-    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
-  },{threshold:0.12});
-  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
-  document.querySelectorAll('a[href^="#"]').forEach(function(a){
-    a.addEventListener('click',function(ev){
-      var id=a.getAttribute('href'); if(id.length>1){ var t=document.querySelector(id); if(t){ ev.preventDefault(); t.scrollIntoView({behavior:'smooth'}); } }
-    });
-  });
-})();
-</script>
-</body></html>
+  <section id="reviews">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>From Our Customers</h2>
+        <p>What Maidenhead homeowners say about our work.</p>
+      </div>
+      <div class="t-grid">
+        <div class="t-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Builders Maidenhead extended our kitchen and the finish is spot on. Kept us updated the whole way through and finished on time."</p>
+          <div class="who">— Sarah P., Maidenhead (SL6)</div>
+        </div>
+        <div class="t-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Reliable, tidy and fair priced. They converted our loft into a bedroom and we couldn't be happier with it."</p>
+          <div class="who">— James T., Maidenhead</div>
+        </div>
+        <div class="t-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Got a clear written quote, no surprises, and the renovation was done to a really high standard. Would use again."</p>
+          <div class="who">— Priya R., near Maidenhead</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="contact-box reveal">
+        <h2>Get Your Free Quote</h2>
+        <a class="phone-big" href="tel:01494870870">01494 870870</a>
+        <div class="area">Serving Maidenhead &amp; surrounding Berkshire towns (SL6)</div>
+        <a class="btn" href="tel:01494870870">📞 Call Now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <div class="brand">Builders<span style="color:var(--accent)"> Maidenhead</span></div>
+      <div class="fphone">📞 01494 870870</div>
+      <small>© 2026 Builders Maidenhead. Building contractors in Maidenhead, Berkshire.</small>
+    </div>
+  </footer>
+
+  <a class="call-now" href="tel:01494870870">📞 Call 01494 870870</a>
+
+  <script>
+    // Fade-in on scroll
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>
